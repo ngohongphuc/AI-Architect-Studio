@@ -1,0 +1,34 @@
+{
+  "_ghi_chu": "Bộ tham số kiểm tra dùng cho Kiểm định viên. Các giá trị là tóm tắt phục vụ bài tập lớn; nhóm cần đối chiếu với văn bản gốc (QCVN 01:2021/BXD, TCVN 4451:2012, quy định địa phương) trước khi sử dụng thực tế.",
+  "mat_do_xay_dung": {
+    "nguon": "QCVN 01:2021/BXD – Bảng 2.8: Mật độ xây dựng thuần tối đa của lô đất xây dựng nhà ở riêng lẻ",
+    "bang": [[90, 1.0], [100, 0.9], [200, 0.7], [300, 0.6], [500, 0.5], [1000, 0.4]],
+    "noi_suy": "tuyến tính giữa các mốc diện tích"
+  },
+  "so_tang_toi_da": {"gia_tri": 5, "nguon": "Phạm vi đề tài: nhà ở riêng lẻ 1–5 tầng; số tầng thực tế theo quy hoạch chi tiết khu vực"},
+  "chieu_cao_tang": {
+    "tang_1_min": 3.0, "tang_1_max": 3.9,
+    "tang_khac_min": 3.0, "tang_khac_max": 3.6,
+    "thong_thuy_min": 2.7, "chieu_day_san": 0.15,
+    "nguon": "TCVN 4451:2012 (chiều cao thông thủy phòng ở ≥ 2,7 m) và thông lệ quản lý chiều cao nhà phố"
+  },
+  "cau_thang": {
+    "be_rong_ve_min": 0.9, "bac_cao_max": 0.18, "bac_rong_min": 0.25,
+    "blondel_min": 0.58, "blondel_max": 0.65, "so_bac_ve_max": 18,
+    "nguon": "QCVN 06:2022/BXD, TCVN 4451:2012 – yêu cầu cầu thang nhà ở"
+  },
+  "dien_tich_toi_thieu": {
+    "ngu": {"dien_tich": 9.0, "canh": 2.4},
+    "khach": {"dien_tich": 12.0, "canh": 3.0},
+    "bep": {"dien_tich": 5.0, "canh": 1.8},
+    "wc": {"dien_tich": 2.5, "canh": 1.2},
+    "tho": {"dien_tich": 6.0, "canh": 2.0},
+    "lam_viec": {"dien_tich": 6.0, "canh": 2.0},
+    "sinh_hoat": {"dien_tich": 9.0, "canh": 2.4},
+    "gara": {"dien_tich": 8.0, "canh": 2.5},
+    "gara_o_to": {"dien_tich": 15.0, "canh": 3.0, "chieu_dai": 5.2},
+    "nguon": "TCVN 4451:2012 – Nhà ở: diện tích và kích thước tối thiểu các phòng"
+  },
+  "chieu_sang_bat_buoc": ["ngu", "lam_viec", "sinh_hoat"],
+  "chieu_sang_khuyen_nghi": ["khach", "bep", "tho"]
+}

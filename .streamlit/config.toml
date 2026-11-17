@@ -1,0 +1,29 @@
+# Theme "Modern" – AI Architect Studio
+# Neutral: Slate · Accent: Indigo · tương phản chữ/nền đạt WCAG AA
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#F6F7FB"
+secondaryBackgroundColor = "#EEF1F6"
+textColor = "#101828"
+linkColor = "#4338CA"
+borderColor = "#E4E7EC"
+dataframeBorderColor = "#EAECF0"
+showWidgetBorder = true
+baseRadius = "0.75rem"
+buttonRadius = "0.625rem"
+baseFontSize = 15
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+codeFont = "JetBrains Mono:https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+headingFontSizes = ["2rem", "1.5rem", "1.125rem", "1rem", "0.9375rem", "0.875rem"]
+headingFontWeights = [800, 700, 650, 600, 600, 600]
+chartCategoricalColors = ["#4F46E5", "#0E9384", "#DC6803", "#D92D20", "#7A5AF8", "#1570EF"]
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F4F7"
+borderColor = "#EAECF0"
+
+[client]
+toolbarMode = "minimal"
