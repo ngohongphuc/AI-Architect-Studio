@@ -1,5 +1,7 @@
 # AI Architect Studio – Hệ thống multi-agent tự động thiết kế nhà ở
 
+> 📄 Kế hoạch thực hiện đề tài: [docs/planqlda.md](docs/planqlda.md)
+
 Văn phòng kiến trúc ảo gồm 5 agent (Chủ nhiệm, Kiến trúc sư, Họa viên, Kiểm định viên, Kỹ sư dự toán) phối hợp
 qua LangGraph, có **2 vòng lặp phản hồi** (quy chuẩn, ngân sách; tối đa 3 vòng). Người dùng nhập yêu cầu tiếng Việt,
 hệ thống xuất **3 sản phẩm** dùng chung một nguồn số liệu:
